@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Protect Your Coop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/robbmj/simple-js-countdown-timer/master/countdowntimer.js"></script>
+</head>
+<body>
+	<div id="intro1">
+		<div class="introTop">
+			<img src="http://www.raniakandil.com/img/Intro1_Title.gif" height="330px" no repeat>
+		</div>
+		<div class="introBottom">
+			<div class="introText introTextMorePadding">
+				<span class="introTitle">Protect The Coop</span>
+				<em>Outsmart the foxes to save your chicks.</em>
+			</div>
+			<div class="progDotsLock">
+				<div class="progDots">
+					<div class="progDot red"></div>
+					<div class="progDot"></div>
+					<div class="progDot"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="intro2">
+		<div class="introTop">
+			<img src="http://www.raniakandil.com/img/Intro2_OnboardingA.gif" height="330px" no repeat>
+		</div>
+		<div class="introBottom">
+			<div class="introText">
+					Tap a square to get a clue on what’s hiding: foxes are bad, chicks are good. Tap again to save the chicks. But avoid the foxes - find 8 and you lose. 
+			</div>
+			<div class="progDotsLock">
+				<div class="progDots">
+					<div class="progDot"></div>
+					<div class="progDot red"></div>
+					<div class="progDot"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="intro3">
+		<div class="introTop">
+			<img src="http://www.raniakandil.com/img/Intro3_OnboardingB.gif" height="330px" no repeat>
+		</div>
+		<div class="introBottom">
+			<div class="introText">
+					You have 30 seconds to find and save all your baby chicks, but be careful! If you get the clues wrong and tap 8 foxes, the game’s over.
+			</div>
+			<div class="progDotsLock">
+				<div class="progDots">
+					<div class="progDot"></div>
+					<div class="progDot"></div>
+					<div class="progDot red"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mask"></div>
+
+<!-- Game -->
+	<div id="mainContainer">
+		<div id="container"></div>
+	</div>
+
+<!-- Buttons -->
+
+	<input type="button" id="next1_button"  value="NEXT" />
+	<div id="timerDiv">
+		<span id="visualTimer"></span>
+    <span id="replayBtn"></span>
+	</div>
+
+<!-- Exit Screens --> 
+  
+  <div id="timeOut">
+    <div class="restartText">
+      RESTART
+    </div>
+  </div>
+  <div id="timeOutAnimation">
+    <img src="http://www.raniakandil.com/img/Conclusion_Fox.gif" height="497px" width="373px">
+  </div>
+
+  <div id="youWin">
+    <div class="restartText">
+      RESTART
+    </div>
+  </div>
+  <div id="youWinAnimation">
+    <img src="http://www.raniakandil.com/img/Conclusion_Hen.gif" height="497px" width="373px">
+  </div>
+ 
+</body>
+</html>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
